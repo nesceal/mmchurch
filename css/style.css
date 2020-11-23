@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #53BF0F;
+    color: darkgreen;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #53BF0F;
+    color: darkgreen;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #53BF0F;
+    border-color: darkgreen;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #53BF0F;
+    background-color: darkgreen;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #53BF0F;
-    background-color: #53BF0F;
+    border-color: darkgreen;
+    background-color: darkgreen;
 }
 
 .btn-primary .badge {
-    color: #53BF0F;
+    color: darkgreen;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #53BF0F;
+    border-color: darkgreen;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #53BF0F;
+    background-color: darkgreen;
 }
 
 .btn-xl:hover,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #53BF0F;
-    background-color: #53BF0F;
+    border-color: darkgreen;
+    background-color: darkgreen;
 }
 
 .btn-xl .badge {
-    color: #53BF0F;
+    color: darkgreen;
     background-color: #fff;
 }
 
@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #53BF0F;
+    color: darkgreen;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #53BF0F;
-    background-color: #53BF0F;
+    border-color: darkgreen;
+    background-color: darkgreen;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,13 +201,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #53BF0F;
+    background-color: darkgreen;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -215,13 +215,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #53BF0F;
+    color: darkgreen;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #53BF0F;
+    background-color: darkgreen;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -298,6 +298,7 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
     margin-right: 51%;
+    text-shadow: 2px 2px #808080;
 }
 
 header .intro-text .intro-heading {
@@ -353,12 +354,6 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
-
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -366,7 +361,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -381,7 +376,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(59,133,13,.9);
+    background: rgba(0, 100, 0, 0.75);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -415,7 +410,6 @@ section h3.section-subheading {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
-    text-align: center;
     background-color: #fff;
 }
 
@@ -433,12 +427,6 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .timeline {
@@ -479,7 +467,7 @@ section h3.section-subheading {
     position: relative;
     width: 100%;
     padding: 0 20px 0 100px;
-    text-align: left;
+    text-align: justify;
 }
 
 .timeline>li .timeline-panel:before {
@@ -507,7 +495,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #53BF0F;
+    background-color: darkgreen;
 }
 
 .timeline>li .timeline-image h4 {
@@ -519,7 +507,6 @@ section h3.section-subheading {
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
     padding: 0 20px 0 100px;
-    text-align: left;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -568,7 +555,6 @@ section h3.section-subheading {
         float: left;
         width: 41%;
         padding: 0 20px 20px 30px;
-        text-align: right;
     }
 
     .timeline>li .timeline-image {
@@ -587,7 +573,6 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
-        text-align: left;
     }
 }
 
@@ -694,7 +679,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #53BF0F;
+    border-color: darkgreen;
     box-shadow: none;
 }
 
@@ -772,7 +757,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #53BF0F;
+    background-color: darkgreen;
 }
 
 .btn:focus,
@@ -853,36 +838,14 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-::-moz-selection {
-    text-shadow: none;
-    background: #53BF0F;
-}
-
-::selection {
-    text-shadow: none;
-    background: #53BF0F;
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #53BF0F;
-}
-
 /* MODIFICATIONS */
 .logo-center {
     position: absolute;
-    top: 0px;
+    top: 15px;
     left: 50%;
-    margin-left: -72px !important;
-    height: 124px;
+    height: 100px;
     z-index: 3;
+    transform: translateX(-50%);
 }
 
 @media screen and (max-width: 768px) {
@@ -924,27 +887,19 @@ body {
 
 .google-maps {
     position: relative;
-    padding-bottom: 10%; // This is the aspect ratio
+    padding-bottom: 10%; /* this is the aspect ratio */
     height: 0;
     overflow: hidden;
-
-    .map {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-    }
 }
 
-.phone, .email {
-    color: #fff;
+.google-maps .map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.email {
-    padding-left: 15%;
-}
-#map_canvas {
-    width:100%; 
-    height:500px
+.contact-info {
+  color: #fff;
 }
