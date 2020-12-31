@@ -294,11 +294,17 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
     font-style: italic;
     line-height: 22px;
-    margin-right: 51%;
-    text-shadow: 2px 2px #808080;
+    margin-right: 50%;
+}
+
+header .intro-text .intro-lead-in p {
+    font-size: 20px;
+}
+
+header .intro-text .intro-lead-in p:last-child {
+    font-size: 16px;
 }
 
 header .intro-text .intro-heading {
@@ -322,7 +328,16 @@ header .intro-text .intro-heading {
         font-size: 25px;
         font-style: italic;
         line-height: 40px;
-        margin-right: 51%;
+        margin-right: 50%;
+        text-shadow: 2px 2px #808080;
+    }
+
+    header .intro-text .intro-lead-in p {
+        font-size: 26px;
+    }
+    
+    header .intro-text .intro-lead-in p:last-child {
+        font-size: 20px;
     }
 
     header .intro-text .intro-heading {
@@ -336,22 +351,23 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 28px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 35px;
+    margin: 0;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .service-heading {
@@ -542,6 +558,15 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
+    section {
+        padding: 30px 0;
+    }
+    section h2.section-heading {
+        font-size: 40px;
+    }
+    section h3.about-heading {
+        margin: 100px auto 30px;
+    }
     .timeline:before {
         left: 50%;
     }
@@ -724,7 +749,6 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
 }
 
 footer ul.quicklinks {
