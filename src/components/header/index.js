@@ -2,25 +2,26 @@ import React from 'react';
 import { css } from 'aphrodite/no-important';
 import { styleSheet } from './styles';
 
-const Header = (props) => {
+const Header = ({ data }) => {
   const styles = styleSheet();
+  const { about, history, events, beliefs, contact } = data;
 
   return (
     <header className={css(styles.header)}>
       <a href="#about" className={css(styles.headerItem)}>
-        About
+        {about.header}
       </a>
       <a href="#history" className={css(styles.headerItem)}>
-        History
+        {history.header}
       </a>
       <a href="#events" className={css(styles.headerItem)}>
-        Events
+        {events.header}
       </a>
       <a href="#beliefs" className={css(styles.headerItem)}>
-        Beliefs
+        {beliefs.header}
       </a>
       <a href="#contact" className={css(styles.headerItem)}>
-        Contact
+        {contact.header}
       </a>
     </header>
   );

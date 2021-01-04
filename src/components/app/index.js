@@ -13,14 +13,13 @@ import { css } from 'aphrodite/no-important';
 import { styleSheet } from './styles';
 
 function App() {
-
   const styles = styleSheet();
   const locale = localStorage.getItem(LOCALE_KEY) || 'english';
   const [data, setData] = useState(LocalizationData[locale]);
 
   return (
     <main className={css(styles.app)}>
-      <Header />
+      <Header data={data} />
       <Landing />
       <About data={data.about} />
       <History data={data.history} />
