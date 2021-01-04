@@ -5,6 +5,7 @@ import { styleSheet } from './styles';
 import { LOCALE_KEY } from '../../util/constants';
 
 const Footer = (props) => {
+
   const styles = styleSheet();
 
   const handleLocaleClick = (locale) => {
@@ -16,10 +17,11 @@ const Footer = (props) => {
 
   return (
     <footer className={css(styles.footer)}>
-      <div className={css(styles.locale)}>
-        <span onClick={() => handleLocaleClick('english')}>English</span> |{' '}
-        <span onClick={() => handleLocaleClick('tagalog')}>Filipino</span>
+      <div>
+        <span className={css(styles.locale)} onClick={() => handleLocaleClick('english')}>English</span>&nbsp;|&nbsp;
+        <span className={css(styles.locale)} onClick={() => handleLocaleClick('tagalog')}>Filipino</span>
       </div>
+      <p className={css(styles.copyright)}>&copy; 2020 Malayang Mananampalataya Church, Inc.</p>
     </footer>
   );
 };

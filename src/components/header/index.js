@@ -1,5 +1,4 @@
 import React from 'react';
-import LocalizationData from '../../data/localization';
 import { css } from 'aphrodite/no-important';
 import { styleSheet } from './styles';
 
