@@ -2,13 +2,13 @@ import React from 'react';
 import { css } from 'aphrodite/no-important';
 import { styleSheet } from './styles';
 
-const Contact = () => {
+const Contact = (props) => {
 
   const styles = styleSheet();
 
   return (
-    <section className={css(styles.contact)}>
-      Contact
+    <section id='contact' className={css(styles.contact)}>
+      <h1>{props.data.header}</h1>
     </section>
   );
 };

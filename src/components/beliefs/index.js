@@ -5,10 +5,9 @@ import { styleSheet } from './styles';
 const Beliefs = props => {
 
   const styles = styleSheet();
-  console.log(props);
 
   return (
-    <section className={css(styles.beliefs)}>
+    <section id='beliefs' className={css(styles.beliefs)}>
       <h1>{props.data.header}</h1>
     </section>
   );

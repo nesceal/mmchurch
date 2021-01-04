@@ -2,13 +2,13 @@ import React from 'react';
 import { css } from 'aphrodite/no-important';
 import { styleSheet } from './styles';
 
-const Events = () => {
+const Events = (props) => {
 
   const styles = styleSheet();
 
   return (
-    <section className={css(styles.events)}>
-      Events
+    <section id='events' className={css(styles.events)}>
+      <h1>{props.data.header}</h1>
     </section>
   );
 };

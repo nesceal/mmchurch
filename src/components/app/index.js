@@ -20,17 +20,13 @@ function App() {
 
   return (
     <main className={css(styles.app)}>
-      {Object.keys(data).length > 0 &&
-        <>
-          <Header />
-          <Landing />
-          <About data={data.about} />
-          <History data={data.history} />
-          <Events data={data.events} />
-          <Beliefs data={data.beliefs} />
-          <Contact data={data['contact-us']} />
-        </>
-      }
+      <Header />
+      <Landing />
+      <About data={data.about} />
+      <History data={data.history} />
+      <Events data={data.events} />
+      <Beliefs data={data.beliefs} />
+      <Contact data={data.contact} />
       <Footer locale={locale} setData={setData} />
     </main>
   );
