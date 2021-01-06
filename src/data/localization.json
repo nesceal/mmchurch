@@ -1,5 +1,8 @@
 {
   "english": {
+    "landing": {
+      "content": "\"I am in humility and purity, so Man, seek and there you will find me.\""
+    },
     "about": {
       "header": "About",
       "contents": [
@@ -123,6 +126,9 @@
     }
   },
   "tagalog": {
+    "landing": {
+      "content": "\"Ako ay nasa kababaan at kalinisan kaya Tao, hanapin mo iyon at doon mo Ako matatagpuan.\""
+    },
     "about": {
       "header": "Tungkol Sa",
       "contents": [

@@ -20,7 +20,7 @@ function App() {
   return (
     <main className={css(styles.app)}>
       <Header data={data} />
-      <Landing />
+      <Landing data={data.landing} />
       <About data={data.about} />
       <History data={data.history} />
       <Events data={data.events} />
