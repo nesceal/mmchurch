@@ -19,9 +19,12 @@ const Header = ({ data }) => {
             styles.listItem,
             selectedNavItem === 'about' && styles.active
           )}
-          onClick={() => handleNavItemClick('about')}
         >
-          <a href="#about" className={css(styles.label)}>
+          <a
+            href="#about"
+            className={css(styles.label)}
+            onClick={() => handleNavItemClick('about')}
+          >
             {about.header}
           </a>
         </li>
@@ -30,9 +33,12 @@ const Header = ({ data }) => {
             styles.listItem,
             selectedNavItem === 'history' && styles.active
           )}
-          onClick={() => handleNavItemClick('history')}
         >
-          <a href="#history" className={css(styles.label)}>
+          <a
+            href="#history"
+            className={css(styles.label)}
+            onClick={() => handleNavItemClick('history')}
+          >
             {history.header}
           </a>
         </li>
@@ -42,9 +48,12 @@ const Header = ({ data }) => {
             styles.leftListLastItem,
             selectedNavItem === 'events' && styles.active
           )}
-          onClick={() => handleNavItemClick('events')}
         >
-          <a href="#events" className={css(styles.label)}>
+          <a
+            href="#events"
+            className={css(styles.label)}
+            onClick={() => handleNavItemClick('events')}
+          >
             {events.header}
           </a>
         </li>
@@ -59,9 +68,12 @@ const Header = ({ data }) => {
             styles.rightListfirstItem,
             selectedNavItem === 'beliefs' && styles.active
           )}
-          onClick={() => handleNavItemClick('beliefs')}
         >
-          <a href="#beliefs" className={css(styles.label)}>
+          <a
+            href="#beliefs"
+            className={css(styles.label)}
+            onClick={() => handleNavItemClick('beliefs')}
+          >
             {beliefs.header}
           </a>
         </li>
@@ -70,9 +82,12 @@ const Header = ({ data }) => {
             styles.listItem,
             selectedNavItem === 'contact' && styles.active
           )}
-          onClick={() => handleNavItemClick('contact')}
         >
-          <a href="#contact" className={css(styles.label)}>
+          <a
+            href="#contact"
+            className={css(styles.label)}
+            onClick={() => handleNavItemClick('contact')}
+          >
             {contact.header}
           </a>
         </li>
