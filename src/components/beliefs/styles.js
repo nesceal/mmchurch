@@ -5,6 +5,13 @@ export const styleSheet = () => StyleSheet.create({
   beliefs: {
     textAlign: 'center'
   },
+  headline: {
+    fontSize: '28px',
+
+    [STYLE_MEDIA.TABLET]: {
+      fontSize: '32px'
+    }
+  },
   list: {
     display: 'flex',
     flexDirection: 'column',

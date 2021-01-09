@@ -5,6 +5,13 @@ export const styleSheet = () => StyleSheet.create({
   events: {
     textAlign: 'center'
   },
+  headline: {
+    fontSize: '28px',
+
+    [STYLE_MEDIA.TABLET]: {
+      fontSize: '32px'
+    }
+  },
   subheadline: {
     margin: '15px',
 

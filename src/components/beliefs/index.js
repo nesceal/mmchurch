@@ -8,7 +8,7 @@ const Beliefs = props => {
 
   return (
     <section id='beliefs' className={css(styles.beliefs)}>
-      <h1>{props.data.header}</h1>
+      <h1 className={css(styles.headline)}>{props.data.header}</h1>
       <div className={css(styles.list)}>
         {props.data.contents.map((obj, i) => {
           return <div key={i} className={css(styles.belief)}>

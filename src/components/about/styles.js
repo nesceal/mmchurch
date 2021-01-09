@@ -7,8 +7,12 @@ export const styleSheet = () =>
       margin: '30px',
     },
     headline: {
+      fontSize: '28px',
       textAlign: 'center',
-      textTransform: 'uppercase',
+
+      [STYLE_MEDIA.TABLET]: {
+        fontSize: '32px'
+      }
     },
     container: {
       display: 'flex',

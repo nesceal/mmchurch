@@ -8,7 +8,7 @@ const History = (props) => {
 
   return (
     <section id='history' className={css(styles.history)}>
-      <h1>{props.data.header}</h1>
+      <h1 className={css(styles.headline)}>{props.data.header}</h1>
       <h2>{props.data.subheadline}</h2>
       <div className={css(styles.list)}>
         {props.data.contents.map((obj, i) => {
