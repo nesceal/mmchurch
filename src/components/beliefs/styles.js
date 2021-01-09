@@ -24,17 +24,19 @@ export const styleSheet = () => StyleSheet.create({
   },
   subheadline: {
     margin: '15px',
+    textAlign: 'left',
 
     [STYLE_MEDIA.TABLET]: {
-      margin: '30px'
+      margin: '15px 30px'
     }
   },
 
   paragraph: {
     margin: '15px',
+    textAlign: 'justify',
 
     [STYLE_MEDIA.TABLET]: {
-      margin: '30px'
+      margin: '15px 30px'
     }
   }
 });

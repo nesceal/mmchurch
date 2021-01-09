@@ -13,7 +13,8 @@
       ]
     },
     "history": {
-      "header": "History",
+      "header": "HISTORY",
+      "subheadline": "HISTORY OF MALAYANG MANANAMPALATAYA CHURCH",
       "contents": [
         {
           "title": "1953 - Series of Manifestations",
@@ -50,7 +51,7 @@
       ]
     },
     "events": {
-      "header": "Events",
+      "header": "EVENTS",
       "contents": [
         {
           "icon": "/images/icons/cross.png",
@@ -92,7 +93,7 @@
       ]
     },
     "beliefs": {
-      "header": "Beliefs",
+      "header": "BELIEFS",
       "contents": [
         {
           "title": "The Eye",
@@ -160,7 +161,8 @@
       ]
     },
     "history": {
-      "header": "Kasaysayan",
+      "header": "KASAYSAYAN",
+      "subheadline": "KASAYSAYAN NG MALAYANG MANANAMPALATAYA CHURCH",
       "contents": [
         {
           "title": "1953 - Ang Simula ng Pagpapakita",
@@ -197,28 +199,49 @@
       ]
     },
     "events": {
-      "header": "Mga Gawaing Pansimbahan",
+      "header": "MGA GAWAING PANSIMBAHAN",
       "contents": [
         {
+          "icon": "/images/icons/cross.png",
           "title": "Banal na Misa",
-          "content": "Biyernes, 8 ng PHT\nLinggo, 8 nu PHT (may“ live streaming”)\nPagbasa ng mensahe ni A.C.D.U.D.U.M. NIŇO DE PASTOR\nPagbabasbas ng pang-inom na tubig "
+          "content": [
+            "Biyernes, 8 ng gabi",
+            "Linggo, 8 ng umaga (may\"live streaming\")",
+            "Pagbasa ng mensahe ni A.C.D.U.D.U.M. NIŇO DE PASTOR",
+            "Pagbabasbas ng pang-inom na tubig"
+          ]
         },
         {
+          "icon": "/images/icons/cross.png",
           "title": "Biyernes Santo",
-          "content": "Banal na Misa, 2 nh at 8 ng PHT\nPagbasa ng mensahe ni A.C.D.U.D.U.M. NIŇO DE PASTOR\nPagbabasbas ng mga tao at mga bagay\nPagbabasbas ng “alok” para sa magsisimba"
+          "content": [
+            "Banal na Misa, 2 ng hapon at 8 ng gabi",
+            "Pagbasa ng mensahe ni A.C.D.U.D.U.M. NIŇO DE PASTOR",
+            "Pagbabasbas ng mga tao at mga bagay",
+            "Pagbabasbas ng \"alok\" para sa magsisimba"
+          ]
         },
         {
+          "icon": "/images/icons/palay.png",
           "title": "Agosto 10, Kapistahan",
-          "content": "Banal na Misa, 8 ng PHT\nPagbabasbas  ng uhay ng palay para sa magsisimba"
+          "content": [
+            "Banal na Misa, 8 ng gabi",
+            "Pagbabasbas  ng uhay ng palay para sa magsisimba"
+          ]
         },
         {
+          "icon": "/images/icons/star.png",
           "title": "Pasko, Disyember 15",
-          "content": "Disyembre 15 Banal na Misa, 8 ng PHT\nPagbabasbas ng mga tao\nPananalangin sa Sto Nino sa sabsaban"
+          "content": [
+            "Disyembre 15 Banal na Misa, 8 ng gabi",
+            "Pagbabasbas ng mga tao",
+            "Pananalangin sa Sto Nino sa sabsaban"
+          ]
         }
       ]
     },
     "beliefs": {
-      "header": "Mga Paniniwala",
+      "header": "MGA PANINIWALA",
       "contents": [
         {
           "title": "\"The Eye\"",
