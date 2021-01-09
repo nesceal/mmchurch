@@ -5,12 +5,8 @@
     },
     "about": {
       "header": "About",
-      "contents": [
-        {
-          "title": "Malayang Mananampalataya Church",
-          "content": "MALAYANG MANANAMPALATAYA CHURCH, INC. is a registered religious sect that originated in Morong, Rizal, Philippines since August 10, 1955. This was founded by the followers of the Spirit of the Holy Son of God, known by His earthly name, A.C.D.U.D.U.M. NIÑO DE PASTOR, the Savior who took the role of a humble Shepherd to save mankind."
-        }
-      ]
+      "sectionTitle": "Malayang Mananampalataya Church",
+      "content": "MALAYANG MANANAMPALATAYA CHURCH, INC. is a registered religious sect that originated in Morong, Rizal, Philippines since August 10, 1955. This was founded by the followers of the Spirit of the Holy Son of God, known by His earthly name, A.C.D.U.D.U.M. NIÑO DE PASTOR, the Savior who took the role of a humble Shepherd to save mankind."
     },
     "history": {
       "header": "History",

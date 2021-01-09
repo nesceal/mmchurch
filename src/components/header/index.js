@@ -9,7 +9,6 @@ const Header = ({ data }) => {
 
   const handleNavItemClick = (navItem) => {
     setSelectedNavItem(navItem);
-    // setSelectedNavItem(item);
   };
 
   return (
