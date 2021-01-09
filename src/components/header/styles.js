@@ -1,5 +1,4 @@
 import { StyleSheet } from 'aphrodite/no-important';
-import { STYLE_MEDIA } from '../../util/constants';
 
 export const styleSheet = () =>
   StyleSheet.create({

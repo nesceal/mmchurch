@@ -50,7 +50,7 @@ const Header = ({ data }) => {
         </li>
       </ul>
       <div className={css(styles.logoContainer)}>
-        <img src="logo.png" className={css(styles.logo)}></img>
+        <img src="logo.png" alt="The Eye" className={css(styles.logo)}></img>
       </div>
       <ul className={css(styles.list, styles.righttList)}>
         <li
