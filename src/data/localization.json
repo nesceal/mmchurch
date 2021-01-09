@@ -53,20 +53,41 @@
       "header": "Events",
       "contents": [
         {
+          "icon": "/images/icons/cross.png",
           "title": "Holy Mass",
-          "content": "Friday, 8pm PHT\nSunday, 8am PHT (with live streaming)\nReading of the messages and reminders of A.C.D.U.D.U.M. NIŇO DE PASTOR\nBlessing of drinking water for the attendees"
+          "content": [
+            "Friday, 8pm PHT",
+            "Sunday, 8am PHT (with live streaming)",
+            "Reading of the messages and reminders of A.C.D.U.D.U.M. NIŇO DE PASTOR",
+            "Blessing of drinking water for the attendees"
+          ]
         },
         {
+          "icon": "/images/icons/cross.png",
           "title": "Good Friday",
-          "content": "Holy Mass, 2pm and 8pm PHT\nReading of the messages of A.C.D.U.D.U.M. NIŇO DE PASTOR\nBlessing of people and things\nBlessing of \"alok\" for the attendees"
+          "content": [
+            "Holy Mass, 2pm and 8pm PHT",
+            "Reading of the messages of A.C.D.U.D.U.M. NIŇO DE PASTOR",
+            "Blessing of people and things",
+            "Blessing of \"alok\" for the attendees"
+          ]
         },
         {
+          "icon": "/images/icons/palay.png",
           "title": "August 10 Fiesta",
-          "content": "Holy Mass, 8pm PHT\nBlessing of rice stalks for the attendees"
+          "content": [
+            "Holy Mass, 8pm PHT",
+            "Blessing of rice stalks for the attendees"
+          ]
         },
         {
+          "icon": "/images/icons/star.png",
           "title": "Christmas",
-          "content": "December 15 Holy Mass, 8pm PHT\nBlessing of people\nPraying to the Sto. Nino in a manger"
+          "content": [
+            "December 15 Holy Mass, 8pm PHT",
+            "Blessing of people",
+            "Praying to the Sto. Nino in a manger"
+          ]
         }
       ]
     },
