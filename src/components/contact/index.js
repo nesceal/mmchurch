@@ -8,7 +8,8 @@ const Contact = (props) => {
 
   return (
     <section id='contact' className={css(styles.contact)}>
-      <h1>{props.data.header}</h1>
+      <h1 className={css(styles.headline)}>{props.data.header}</h1>
+      <p className={css(styles.paragraph)} dangerouslySetInnerHTML={{ __html: props.data.contents[0].content }} />
     </section>
   );
 };

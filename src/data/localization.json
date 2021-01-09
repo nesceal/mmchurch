@@ -134,11 +134,11 @@
       ]
     },
     "contact": {
-      "header": "Contact Us",
+      "header": "CONTACT US",
       "contents": [
         {
           "title": "",
-          "content": "Email: malayangmananampalatayachurch@gmail.com\nAddress: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
+          "content": "Email: malayangmananampalatayachurch@gmail.com<br><br>Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
         }
       ]
     }
@@ -282,11 +282,11 @@
       ]
     },
     "contact": {
-      "header": "Kontakin",
+      "header": "KONTAKIN",
       "contents": [
         {
           "title": "",
-          "content": "Email: malayangmananampalatayachurch@gmail.com\nAddress: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
+          "content": "Email: malayangmananampalatayachurch@gmail.com<br><br>Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
         }
       ]
     }

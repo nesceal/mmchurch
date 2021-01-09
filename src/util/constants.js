@@ -5,5 +5,6 @@ export const STYLE_MEDIA = {
 };
 export const COLORS = {
   green: '#006400',
-  red: '#800000'
+  red: '#800000',
+  white: '#FFFFFF'
 };
