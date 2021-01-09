@@ -7,7 +7,9 @@ const Landing = (props) => {
 
   return (
     <section className={css(styles.landing)}>
-      <p>{props.data.content} - A.C.D.U.D.U.M. NIÑO DE PASTOR</p>
+      <p className={css(styles.paragraph)}>
+        {props.data.content} - A.C.D.U.D.U.M. NIÑO DE PASTOR
+      </p>
     </section>
   );
 };
