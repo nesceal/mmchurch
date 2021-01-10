@@ -9,8 +9,12 @@ const About = (props) => {
     <section id="about" className={css(styles.about)}>
       <h1 className={css(styles.headline)}>{props.data.sectionTitle}</h1>
       <div className={css(styles.container)}>
-        <span className={css(styles.image)}>
-          <img src="images/church.jpg" alt="MM Church"></img>
+        <span className={css(styles.imageContainer)}>
+          <img
+            src="images/church.jpg"
+            alt="MM Church"
+            className={css(styles.image)}
+          ></img>
         </span>
 
         <p className={css(styles.paragraph)}>{props.data.content}</p>

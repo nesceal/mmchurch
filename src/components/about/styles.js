@@ -11,11 +11,15 @@ export const styleSheet = () =>
       textAlign: 'center',
 
       [STYLE_MEDIA.TABLET]: {
-        fontSize: '32px'
-      }
+        fontSize: '32px',
+      },
     },
     container: {
       display: 'flex',
+
+      [STYLE_MEDIA.MOBILE]: {
+        flexDirection: 'column',
+      },
 
       [STYLE_MEDIA.TABLET]: {
         flexDirection: 'column',
@@ -25,9 +29,14 @@ export const styleSheet = () =>
         flexDirection: 'row',
       },
     },
-    image: {
+    imageContainer: {
       display: 'flex',
       justifyContent: 'center',
+    },
+    image: {
+      display: 'block',
+      maxWidth: '100%',
+      height: 'auto',
     },
     paragraph: {
       display: 'flex',
