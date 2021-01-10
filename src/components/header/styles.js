@@ -61,6 +61,7 @@ export const styleSheet = () =>
       fontWeight: '700',
       textDecoration: 'none',
       textTransform: 'uppercase',
+      textAlign: 'center',
 
       [STYLE_MEDIA.MOBILE]: {
         display: 'block',

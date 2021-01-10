@@ -9,4 +9,6 @@ export const COLORS = {
   red: '#800000',
   lightRed: '#993232',
   white: '#FFFFFF',
+  gray: '#777777;',
+  darkGray: '#808080',
 };

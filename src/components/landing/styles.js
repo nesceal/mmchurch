@@ -1,5 +1,5 @@
 import { StyleSheet } from 'aphrodite/no-important';
-import { STYLE_MEDIA } from '../../util/constants';
+import { COLORS, STYLE_MEDIA } from '../../util/constants';
 
 export const styleSheet = () =>
   StyleSheet.create({
@@ -18,8 +18,9 @@ export const styleSheet = () =>
       },
     },
     paragraph: {
+      color: COLORS.white,
+      textShadow: `2px 2px ${COLORS.darkGray}`,
       width: '50%',
-      margin: '30px',
       fontSize: '20px',
     },
   });

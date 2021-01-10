@@ -16,10 +16,18 @@ h1,
 h2,
 h3,
 h4 {
+  color: #333333;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 p {
+  color: #777777;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
+}
+section {
+  padding: 2rem;
+}
+section:nth-child(odd):not(:last-of-type) {
+  background-color: #f7f7f7;
 }

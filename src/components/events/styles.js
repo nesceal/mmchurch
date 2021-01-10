@@ -34,6 +34,7 @@ export const styleSheet = () =>
       },
     },
     item: {
+      color: COLORS.gray,
       fontFamily: `'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif`,
       fontStyle: 'italic',
     },

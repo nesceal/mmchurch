@@ -3,9 +3,7 @@ import { STYLE_MEDIA } from '../../util/constants';
 
 export const styleSheet = () =>
   StyleSheet.create({
-    about: {
-      margin: '30px',
-    },
+    about: {},
     headline: {
       fontSize: '28px',
       textAlign: 'center',
@@ -15,6 +13,7 @@ export const styleSheet = () =>
       },
     },
     container: {
+      padding: '30px 0',
       display: 'flex',
 
       [STYLE_MEDIA.MOBILE]: {
@@ -35,7 +34,7 @@ export const styleSheet = () =>
     },
     image: {
       display: 'block',
-      maxWidth: '100%',
+      width: '100%',
       height: 'auto',
     },
     paragraph: {
@@ -48,6 +47,7 @@ export const styleSheet = () =>
 
       [STYLE_MEDIA.DESKTOP]: {
         marginLeft: '30px',
+        width: '50%',
       },
     },
   });
