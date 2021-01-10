@@ -133,6 +133,9 @@
         }
       ]
     },
+    "teachings": {
+      "header": "TEACHINGS"
+    },
     "contact": {
       "header": "CONTACT US",
       "contents": "Email: malayangmananampalatayachurch@gmail.com<br><br>Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
@@ -271,6 +274,9 @@
           "content": "Ang Malayang Mananampalataya ay hindi sumasalalay sa bibliya. Mayruon tayong sariling mga aral at turo na kung masusunod ay mag-aakay sa atin sa mapayapang buhay."
         }
       ]
+    },
+    "teachings": {
+      "header": "MGA ARAL"
     },
     "contact": {
       "header": "KONTAKIN",

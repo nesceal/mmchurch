@@ -5,7 +5,8 @@ export const STYLE_MEDIA = {
   DESKTOP: '@media (min-width: 980px)',
 };
 export const COLORS = {
-  green: '#006400',
+  green: '#3B850D',
   red: '#800000',
+  lightRed: '#993232',
   white: '#FFFFFF',
 };

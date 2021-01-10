@@ -1,97 +1,56 @@
 import React, { useState } from 'react';
 import { css } from 'aphrodite/no-important';
 import { styleSheet } from './styles';
+import Scrollspy from 'react-scrollspy';
 
 const Header = ({ data }) => {
   const styles = styleSheet();
-  const { about, history, events, beliefs, contact } = data;
-  const [selectedNavItem, setSelectedNavItem] = useState('');
+  const ids = ['about', 'history', 'events', 'beliefs', 'teachings', 'contact'];
+  const [showMenuItems, setShowMenuItems] = useState(false);
 
-  const handleNavItemClick = (navItem) => {
-    setSelectedNavItem(navItem);
+  const handleHamburgerMenuClick = () => {
+    setShowMenuItems(!showMenuItems);
   };
 
   return (
     <nav className={css(styles.nav)}>
-      <ul className={css(styles.list, styles.leftList)}>
-        <li
-          className={css(
-            styles.listItem,
-            selectedNavItem === 'about' && styles.active
-          )}
-        >
-          <a
-            href="#about"
-            className={css(styles.label)}
-            onClick={() => handleNavItemClick('about')}
-          >
-            {about.header}
-          </a>
-        </li>
-        <li
-          className={css(
-            styles.listItem,
-            selectedNavItem === 'history' && styles.active
-          )}
-        >
-          <a
-            href="#history"
-            className={css(styles.label)}
-            onClick={() => handleNavItemClick('history')}
-          >
-            {history.header}
-          </a>
-        </li>
-        <li
-          className={css(
-            styles.listItem,
-            styles.leftListLastItem,
-            selectedNavItem === 'events' && styles.active
-          )}
-        >
-          <a
-            href="#events"
-            className={css(styles.label)}
-            onClick={() => handleNavItemClick('events')}
-          >
-            {events.header}
-          </a>
-        </li>
-      </ul>
-      <div className={css(styles.logoContainer)}>
-        <img src="logo.png" alt="The Eye" className={css(styles.logo)}></img>
-      </div>
-      <ul className={css(styles.list, styles.righttList)}>
-        <li
-          className={css(
-            styles.listItem,
-            styles.rightListfirstItem,
-            selectedNavItem === 'beliefs' && styles.active
-          )}
-        >
-          <a
-            href="#beliefs"
-            className={css(styles.label)}
-            onClick={() => handleNavItemClick('beliefs')}
-          >
-            {beliefs.header}
-          </a>
-        </li>
-        <li
-          className={css(
-            styles.listItem,
-            selectedNavItem === 'contact' && styles.active
-          )}
-        >
-          <a
-            href="#contact"
-            className={css(styles.label)}
-            onClick={() => handleNavItemClick('contact')}
-          >
-            {contact.header}
-          </a>
-        </li>
-      </ul>
+      <label
+        htmlFor="hamburger"
+        className={css(styles.hamburgerLabel)}
+        onClick={() => {
+          handleHamburgerMenuClick();
+        }}
+      >
+        &#9776;
+      </label>
+      <input type="checkbox" id="hamburger" className={css(styles.hamburger)} />
+      <img src="logo.png" alt="The Eye" className={css(styles.logo)}></img>
+
+      <Scrollspy
+        items={ids}
+        className={css(styles.list)}
+        currentClassName={css(styles.active)}
+        offset={-10}
+      >
+        {ids.map((id, index) => {
+          return (
+            <li
+              key={index}
+              className={css(
+                styles.item,
+                showMenuItems && styles.showMenuItems,
+                index === 2 && styles.firstHalfRightMargin,
+                index === 3 && styles.lastHalfRightMargin
+              )}
+            >
+              <a href={`#${id}`} className={css(styles.label)}>
+                {data[id].header}
+              </a>
+            </li>
+          );
+        })}
+        <li className={css(styles.logoContainer)}></li>
+      </Scrollspy>
     </nav>
   );
 };
