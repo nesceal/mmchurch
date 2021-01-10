@@ -7,6 +7,7 @@ export const styleSheet = () =>
       backgroundColor: COLORS.red,
       position: 'sticky',
       top: 0,
+      zIndex: 1000,
     },
     list: {
       margin: '0',
@@ -184,17 +185,14 @@ export const styleSheet = () =>
 
       [STYLE_MEDIA.MOBILE]: {
         height: '30px',
-        width: '30px',
       },
 
       [STYLE_MEDIA.TABLET]: {
         height: '30px',
-        width: '30px',
       },
 
       [STYLE_MEDIA.DESKTOP]: {
         height: '100px',
-        width: 'initial',
       },
     },
   });
