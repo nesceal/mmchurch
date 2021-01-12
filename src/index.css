@@ -22,12 +22,34 @@ h4 {
 }
 p {
   color: #777777;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
 }
 section {
-  padding: 2rem;
+  padding: 2rem 6rem;
 }
 section:nth-child(odd):not(:last-of-type) {
   background-color: #f7f7f7;
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 2rem;
+  }
 }

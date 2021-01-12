@@ -15,7 +15,6 @@ export const styleSheet = () =>
     },
     headline: {
       color: COLORS.white,
-      fontSize: '28px',
 
       [STYLE_MEDIA.TABLET]: {
         fontSize: '32px',

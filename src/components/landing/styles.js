@@ -22,5 +22,11 @@ export const styleSheet = () =>
       textShadow: `2px 2px ${COLORS.darkGray}`,
       width: '50%',
       fontSize: '20px',
+      fontFamily: `'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif`,
+      fontStyle: 'italic',
+
+      [STYLE_MEDIA.MOBILE]: {
+        fontSize: '16px',
+      },
     },
   });

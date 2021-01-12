@@ -11,13 +11,14 @@ export const styleSheet = () =>
     },
     list: {
       margin: '0',
-      padding: '0',
+      padding: '0 6rem',
       listStyleType: 'none',
       backgroundColor: COLORS.red,
 
       [STYLE_MEDIA.MOBILE]: {
         height: 'inherit',
         width: '100%',
+        padding: '0',
         display: 'block',
         borderTop: `1px solid ${COLORS.lightRed}`,
         position: 'absolute',
@@ -26,6 +27,7 @@ export const styleSheet = () =>
       [STYLE_MEDIA.TABLET]: {
         height: 'inherit',
         width: '100%',
+        padding: '0',
         display: 'block',
         borderTop: `1px solid ${COLORS.lightRed}`,
         position: 'absolute',

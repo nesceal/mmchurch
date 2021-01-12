@@ -9,8 +9,6 @@ export const styleSheet = () =>
       marginBottom: '50px',
     },
     headline: {
-      fontSize: '28px',
-
       [STYLE_MEDIA.TABLET]: {
         fontSize: '32px',
       },
@@ -31,7 +29,7 @@ export const styleSheet = () =>
 
         [STYLE_MEDIA.TABLET]: {
           left: '0',
-          marginLeft: '3.5rem'
+          marginLeft: '7.5rem'
         },
 
         [STYLE_MEDIA.DESKTOP]: {
@@ -81,7 +79,7 @@ export const styleSheet = () =>
 
       [STYLE_MEDIA.TABLET]: {
         left: '0',
-        marginLeft: '2rem'
+        marginLeft: '6rem'
       },
 
       [STYLE_MEDIA.DESKTOP]: {

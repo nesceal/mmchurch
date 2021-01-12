@@ -7,8 +7,6 @@ export const styleSheet = () =>
       textAlign: 'center',
     },
     headline: {
-      fontSize: '28px',
-
       [STYLE_MEDIA.TABLET]: {
         fontSize: '32px',
       },
@@ -35,8 +33,13 @@ export const styleSheet = () =>
     },
     item: {
       color: COLORS.gray,
-      fontFamily: `'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif`,
-      fontStyle: 'italic',
+      fontFamily: `"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif`,
+      lineHeight: '1.75',
+      fontSize: '16px',
+
+      [STYLE_MEDIA.MOBILE]: {
+        fontSize: '14px',
+      }
     },
     event: {
       paddingTop: '10px',

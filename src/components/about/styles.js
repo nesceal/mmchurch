@@ -5,7 +5,6 @@ export const styleSheet = () =>
   StyleSheet.create({
     about: {},
     headline: {
-      fontSize: '28px',
       textAlign: 'center',
 
       [STYLE_MEDIA.TABLET]: {
@@ -40,6 +39,7 @@ export const styleSheet = () =>
     paragraph: {
       display: 'flex',
       alignItems: 'center',
+      flex: '1',
 
       [STYLE_MEDIA.TABLET]: {
         marginTop: '30px',
