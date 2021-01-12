@@ -9,13 +9,9 @@ export const styleSheet = () =>
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       color: COLORS.white,
-      margin: '15px 0',
       padding: '30px 0',
+      margin: '15px 0',
       textAlign: 'center',
-
-      [STYLE_MEDIA.TABLET]: {
-        margin: '30px 0',
-      },
     },
     headline: {
       color: COLORS.white,

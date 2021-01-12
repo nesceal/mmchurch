@@ -19,22 +19,25 @@ export const styleSheet = () =>
       ':before': {
         content: `""`,
         position: 'absolute',
-        top: '175px',
+        top: '150px',
         bottom: 0,
         width: '2px',
         backgroundColor: COLORS.lighterGray,
 
         [STYLE_MEDIA.MOBILE]: {
-          left: '16%',
+          left: '0',
+          marginLeft: '3.5rem'
         },
 
         [STYLE_MEDIA.TABLET]: {
-          left: '13%',
+          left: '0',
+          marginLeft: '3.5rem'
         },
 
         [STYLE_MEDIA.DESKTOP]: {
           left: 'auto',
           right: 'auto',
+          marginLeft: 'unset'
         },
       },
     },
@@ -63,7 +66,6 @@ export const styleSheet = () =>
     },
     circle: {
       position: 'absolute',
-      margin: '15px auto',
       height: '50px',
       width: '50px',
       border: `5px solid ${COLORS.lighterGray}`,
@@ -73,16 +75,19 @@ export const styleSheet = () =>
       backgroundColor: COLORS.lightGray,
 
       [STYLE_MEDIA.MOBILE]: {
-        left: '10%',
+        left: '0',
+        marginLeft: '2rem'
       },
 
       [STYLE_MEDIA.TABLET]: {
-        left: '10%',
+        left: '0',
+        marginLeft: '2rem'
       },
 
       [STYLE_MEDIA.DESKTOP]: {
-        left: '0px',
-        right: '0px',
+        left: '0',
+        right: '0',
+        margin: '15px auto',
       },
     },
     even: {

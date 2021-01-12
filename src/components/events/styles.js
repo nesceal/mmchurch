@@ -41,6 +41,11 @@ export const styleSheet = () =>
     event: {
       paddingTop: '10px',
 
+      [STYLE_MEDIA.MOBILE]: {
+        flex: '0 50%',
+        paddingTop: '25px',
+      },
+
       [STYLE_MEDIA.TABLET]: {
         flex: '0 50%',
         paddingTop: '25px',
