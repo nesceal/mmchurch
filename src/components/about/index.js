@@ -17,7 +17,7 @@ const About = (props) => {
           ></img>
         </span>
 
-        <p className={css(styles.paragraph)}>{props.data.content}</p>
+        <p className={css(styles.paragraph)} dangerouslySetInnerHTML={{ __html: props.data.content }}></p>
       </div>
     </section>
   );
