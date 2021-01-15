@@ -10,7 +10,7 @@ export const styleSheet = () =>
       backgroundRepeat: 'no-repeat',
       color: COLORS.white,
       padding: '30px 0',
-      margin: '15px 0',
+      marginBottom: '15px',
       textAlign: 'center',
     },
     headline: {

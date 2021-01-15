@@ -30,7 +30,7 @@ const Header = ({ data }) => {
         items={ids}
         className={css(styles.list)}
         currentClassName={css(styles.active)}
-        offset={-10}
+        offset={-400}
       >
         {ids.map((id, index) => {
           return (

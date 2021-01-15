@@ -5,6 +5,7 @@ import About from '../about';
 import History from '../history';
 import Events from '../events';
 import Beliefs from '../beliefs';
+import Teachings from '../teachings';
 import Contact from '../contact';
 import Footer from '../footer';
 import LocalizationData from '../../data/localization';
@@ -25,6 +26,7 @@ function App() {
       <History data={data.history} />
       <Events data={data.events} />
       <Beliefs data={data.beliefs} />
+      <Teachings data={data.teachings}/>
       <Contact data={data.contact} />
       <Footer locale={locale} setData={setData} />
     </main>

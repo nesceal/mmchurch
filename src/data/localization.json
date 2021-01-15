@@ -136,15 +136,21 @@
       "header": "TEACHINGS",
       "contents": [
         {
-          "title": "THE TEACHINGS OF THE SON OF GOD ON EARTH",
+          "title": "The Teachings of the Son of God on Earth",
           "content": [
-            "All are obsessed with sins, hence, repentance or restoring your faith to our Creator must be done day and night.",
-            "Men are brothers and sisters, therefore, love and treat each other with pure heart, respect and humility. Mind your own life and your own way of life, and do not speak ill of others. Be calm, forbearing, generous and patient even when oppressed.",
-            "As the coming of death is not known, always remember to repent and pray every hour to the Almighty God and strive to avoid all things evil. Ask mercy from the Father for everything is in His hands, therefore, all things belong to Him."
+            {
+              "paragraph": [
+                "All are obsessed with sins, hence,<br/> repentance or restoring your faith to<br/> our Creator must be done day and night.",
+                "Men are brothers and sisters, therefore,<br/> love and treat each other with pure heart,<br/> respect and humility. Mind your own life<br/> and your own way of life, and do not speak<br/> ill of others. Be calm, forbearing, generous<br/> and patient even when oppressed.<br/>",
+                "As the coming of death is not known,<br/> always remember to repent and pray<br/> every hour to the Almighty God and strive<br/> to avoid all things evil. Ask mercy from the<br/> Father for everything is in His hands,<br/> therefore, all things belong to Him."
+              ],
+              "list": [],
+              "quotes": []
+            }
           ]
         },
         {
-          "title": "STEPS TO REACH THE TRUTH AND GLORIOUS WAY TO GOD",
+          "title": "Steps to Reach the Truth and Glorious Way to God",
           "content": [
             {
               "headline": "PARENTS",
@@ -153,67 +159,86 @@
                 "If a child  already knows  how to look at colorful things,  avoid showing obscene images. If a child already has a sense of understanding and obedience, begin introducing the concept of praying.",
                 "Avoid things that may lead them to wrongdoings. Keep the arguments between family members involved.",
                 "A child should be raised in an environment of love, care and harmony in the family.  As the child grows older, the parents’ guidance should also be in progress."
-              ]
+              ],
+              "list": [],
+              "quotes": []
             },
             {
               "headline": "SCHOOL",
               "paragraph": [
                 "A child should be taught how to respect other people and let him know the importance of being a law-abiding citizen."
-              ]
+              ],
+              "list": [],
+              "quotes": []
             },
             {
               "headline": "RELIGION AND CHURCH",
               "paragraph": [
                 "Realistic teachings of the church,  the school and parents, are the main vehicle in discovering the holy path of Almighty God, because the fulfillment of the teachings of our Lord is upon men."
-              ]
+              ],
+              "list": [],
+              "quotes": []
             }
           ]
         },
         {
-          "title": "FOR THE PARENTS",
+          "title": "For the Parents",
           "content": [
             {
               "paragraph": [
                 "There are  things that parents should do. If you make time to earn a  living, make time for your children, too. If you patiently feed small children, you must also be patient in reminding them on things that they can do.",
                 "Children are the reflection of the parents. Their parents’ lack of time in guiding them is reflected in them. LIkewise,  we see who among them have proper guidance and who really have no guidance at all.",
-                "If repeated reminders  rarely succeed,  a one time reminder is even more misfortunate. Let us be patient in guiding them until they learn the right thing."
+                "If repeated reminders  rarely succeed,  a one time reminder is even more misfortunate. Let us be patient in guiding them until they learn the right thing.",
+                "Here are some things to do:"
               ],
               "list": [
-                
-              ]
+                "Teach them how to pray and show them things that describe respect such as  hand-gesture (“pagma-mano”)  and responding with “po” and “opo” ( vernacular for the “yes”word) when talking to elders. ","A religion is a registered association of a group of people united in their beliefs and faith in God. In a Godly purpose, it should not happen that the members especially the followers of any church will speak ill and criticize other religions, more so, all of us are brothers and sisters, and above all, we do not choose a particular religion or a particular person from whom to ask help when anyone of us needs help and in dire need of something.",
+                "Make it a habit for them to hear good teachings and stories. ","A religion is a registered association of a group of people united in their beliefs and faith in God. In a Godly purpose, it should not happen that the members especially the followers of any church will speak ill and criticize other religions, more so, all of us are brothers and sisters, and above all, we do not choose a particular religion or a particular person from whom to ask help when anyone of us needs help and in dire need of something.",
+                "Keep their distance from words they are not supposed to hear as in arguments  between spouses, siblings or anyone in the household.",
+                "Do not display obscene photos so as not to be tempted to do.",
+                "If they request something, give conditions  and point out the things that will be  good for them before giving in to whatever they are asking. ","A religion is a registered association of a group of people united in their beliefs and faith in God. In a Godly purpose, it should not happen that the members especially the followers of any church will speak ill and criticize other religions, more so, all of us are brothers and sisters, and above all, we do not choose a particular religion or a particular person from whom to ask help when anyone of us needs help and in dire need of something.",
+                "It is a mistake especially for Mothers, to cover up or hide a child’s error especially, if he is in the wrong. From the outset, show them what is right and what is wrong in a certain issue.",
+                "Do not let the children argue in your presence and insult elders.Do not take sides when siblings fight. Mediate well, explain and teach the erring child secretly.",
+                "Do not let them feel you have one particular favorite among your children, but rather be the way for a harmonious relationship between siblings. Think of fairness in treating your children, male or female.",
+                "It is a mistake to let children leave home with no definite time of coming back.  You should know and they should let you know where they are going.",
+                "Discipline them to sleep in the house all night unless there is an important reason.  Here starts to have children who turn away from the good path of life. LIkewise, here starts to have youngsters who change their minds that lead to more serious problems."
+              ],
+              "quotes": []
             }
           ]
         },
         {
-          "title": "MGA KARAGDAGANG PATNUBAY SA MGA MAGULANG",
+          "title": "Additional Guidance for the Parents",
           "content": [
             {
-              "paragpraph": [
-                "Isagawa itong mga kautusang pambahay at tagubilin sa bawat pamilya na dapat pairalin sa loob ng tahanan upang masubukan."
+              "paragraph": [
+                "Execute these house rules and instructions to each family that should be enforced in the home to test."
               ],
               "list": [
-                "Sanayin ang maagang pagtulog para sa buong pamilya lalo na ang mga bata upang masanay rin na laging nasa sariling tahanan.",
-                "Dapat magkaroon ng takdang oras sa gabi kung saan ang buong pamilya ay sama-samang lahat sa maagang pagtulog sa sariling bahay.",
-                "Magpaalam kahit kangino kung aalis ng bahay at kung saan ang patutunguhan.",
-                "Anuman ang sumapit na suliranin sa pamilya ay hindi na dapat malaman ng ibang tao pagkat pamilya rin ang dapat lumutas. May pasubali rin na kung nasa ibang tao nag kalutasan ay pumili naman ng ilan lamang na mapagkakatiwalaan at tunay na nagmamalasakit.",
-                "Hindi nawawala ang gulo, away o kagalitan ng pamilya sa loob at labas ng tahanan. Makabubuti sa  nagkasala na aminin agad at kusang tanggapin ng buong kababaan ang kamalian at patawarin naman ng pinagkasalahan upang maiwasan ang matagal na pagtatalo na isa sa dahilan ng paglayo ng biyaya sa tahanan.",
-                "Pag-aralang lumipas ang sariling galit o poot sa kapwa bago magsalita upang maiwasan ang masama at labis na pagwiwika sa kapwa.",
-                "Ibahagi sa pinagkakagastusan ang alkansiya o pag-iipon para sa kinabukasan ng bawat isa sa pamilya. Maghulog araw-araw sa magaan at kayang halaga. Ang walang tigil na pag-iipon sa maliit na halaga ay malaki ang kahulugan sa darating na araw."
-              ]
+                "Train the family, especially the children, to sleep early , this will also make them get used to being at home always. ",
+                "There should be a set time at night where the whole family is all together early to sleep in their own home.",
+                "Inform anyone in the family when leaving home and the place where you are heading to.",
+                "Whatever family problems that will arise, other people should not know because the family will still be the one to solve them. There is also a condition that if someone else outside the family has the solution, choose only a few who are trustworthy and truly care.",
+                "Family dispute  is common to all families. It is better for the offender to immediately and wholeheartedly accept the mistake and forgive the offender to avoid a long-running dispute that is one of the reasons why God’s blessings turn away from home.",
+                "Learn to let go of one's own anger or hatred towards others before speaking to avoid bad and too much bad-mouthing of others.",
+                "Allow savings to be part of your  expenses for the future of each member of the family. Save an affordable amount daily. Non-stop saving in small amounts means a lot in the coming days."
+              ],
+              "quotes": []
             }
           ]
         },
         {
-          "title": "SOME OF THE TEACHINGS  OF A.C.D.U.D.U.M. NINO DE PASTOR",
+          "title": "Some of the Teachings of A.C.D.U.D.U.M. Niño De Pastor",
           "content": [
             {
+              "paragraph": [],
               "list": [
                 "Two of the ways to avoid committing sins and also a way to speak nicely especially you have nothing to help others with. <br> a. Do not give weight or value to the help you’ve given to others,  but remember and appreciate the help they have done for you. <br> b. If you have no benefit yet from the person who will approach you and ask for your help, remember, immediately,  your future and that of your family, that tomorrow he may have what you need.",
                 "A religion is a registered association of a group of people united in their beliefs and faith in God. In a Godly purpose, it should not happen that the members especially the followers of any church will speak ill and criticize other religions, more so, all of us are brothers and sisters, and above all, we do not choose a particular religion or a particular person from whom to ask help when anyone of us needs help and in dire need of something.",
                 "True faith is the right practice of commandments and  teachings of God that a religion implements to its followers. A Godly person has a strong will to suppress the weak emotions in order to resist evil and instead, do good deeds besides being pious and knows how to play along with the different behavior of other people. Our Lord wants us to be practical and simple with our faith, not lavish.",
                 "Money and knowledge will not be in use if you do not have people around. You need people to assist you to accomplish things easily and smoothly; you need people to do things for you when you are ailing and unable to move, you need people because they have your other needs."
               ],
-              "carousel": [
+              "quotes": [
                 {
                   "quote": "\"If it is true that you desire to see the Lord, turn away from evil and humble yourself.\""
                 },
@@ -237,10 +262,12 @@
           ]
         },
         {
-          "title": "SOME GRAINS OF TRUTH FROM A.C.D.U.D.U.M. NINO DE PASTOR",
+          "title": "Some Grains of Truth from A.C.D.U.D.U.M. Niño De Pastor",
           "content": [
             {
-              "carousel": [
+              "paragraph": [],
+              "list": [],
+              "quotes": [
                 {
                   "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
                   "location": "Sa harap ng maraming tao<br>Kaingin, Maybancal, Morong, Rizal",
@@ -267,6 +294,17 @@
                   "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
                   "date": "April 02, 2010",
                   "quote": "\"Injustice has its fair share of  punishment and the tolerant will be truly blessed.\""
+                },
+                {
+                  "quote": "A Prayer is a sacred thing because it is communicating with God. Through prayer we can fight all the evil elements brought by the modern world. This is our protection against temptation and other evils."
+                },
+                {
+                  "quote": "God’s blessings that men need are just around the corner. The most effective way of attracting God's blessings is having peace, order, and harmony in the family alongside good deeds and prayers. Family disputes and conflicts drive away God’s blessings that are already at the doorstep."
+                },
+                {
+                  "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
+                  "date": "April 02, 2010",
+                  "quote": "If all religions will be united in the belief that God is truth, in good works, the more powerful it is to resist evil."
                 }
               ]
             }
@@ -417,15 +455,21 @@
       "header": "MGA ARAL",
       "contents": [
         {
-          "title": "MGA ARAL NG DIYOS ANAK SA IBABAW NG LUPA",
+          "title": "Mga Aral ng Diyos Anak sa Ibabaw ng Lupa",
           "content": [
-            "Ang lahat ay nagugumon sa pagkakasala, kaya’t ang pagsisisi o pagbabalik-loob sa Lumikha ay dapat gawin sa araw at gabi.",
-            "Mga tao’y magkakapatid kaya’t magmahalan at magpasunuran sa isa’t isa. Makisama ng buong linis, paggalang at kababaan sa kapwa. Isipin ang sariling buhay at pamumuhay at huwag mag-upasala sa iba. Maging mahinahon, mapasensyahin, mapagbigay at maging mapagtiis kung naaapi man.",
-            "Ang pagsipot ng kamatayan ay di nalalaman kaya’t sa bawat oras ay alalahanin lagi ang pagsisisi at pananalangin sa Makapangyarihang Ama at pagsumikapang iwasan ang lahat ng bagay na masasama. Humingi ng awa sa Ama sapagka’t Siya ang may hawak ng lahat ng bagay kaya’t ang lahat ay sa Kanya."
+            {
+              "paragraph": [
+                "Ang lahat ay nagugumon sa pagkakasala, kaya’t<br/> ang pagsisisi o pagbabalik-loob sa Lumikha ay<br/> dapat gawin sa araw at gabi.",
+                "Mga tao’y magkakapatid kaya’t magmahalan at<br/> magpasunuran sa isa’t isa. Makisama ng buong linis,<br/> paggalang at kababaan sa kapwa. Isipin ang sariling<br/> buhay at pamumuhay at huwag mag-upasala sa iba.<br/> Maging mahinahon, mapasensyahin, mapagbigay at<br/> maging mapagtiis kung naaapi man.",
+                "Ang pagsipot ng kamatayan ay di nalalaman kaya’t sa<br/> bawat oras ay alalahanin lagi ang pagsisisi at pananalangin<br/> sa Makapangyarihang Ama at pagsumikapang iwasan ang<br/> lahat ng bagay na masasama. Humingi ng awa sa Ama<br/> sapagka’t Siya ang may hawak ng lahat ng bagay kaya’t<br/> ang lahat ay sa Kanya."
+              ],
+              "list": [],
+              "quotes": []
+            }
           ]
         },
         {
-          "title": "MGA BAITANG UPANG MARATING ANG KATOTOHANAN AT MALUWALHATING  DAAN TUNGO SA DIOS",
+          "title": "Mga Baitang Upang Marating ang Katotohanan at Maluwalhating Daan Tungo sa Dios",
           "content": [
             {
               "headline": "MAGULANG",
@@ -434,24 +478,30 @@
                 "Kung ang bata ay marunong nang umintindi at sumunod sa bawat dikta, ay umpisahang ipakita ang kalagayan ng isang taong nananalangin.",
                 "Iwasan ang mga bagay na maaaring ipagkasala nila. Huwag iparinig at huwag ipakita sa mga bata ang pagtatalo ng sino man sa loob ng bahay.",
                 "Ang masaya at magandang pasunuran ng mag-anak ang dapat ipakita sa mga bata. Habang lumalaki ay dapat na umiisod na rin ang paalaala sa kanilang hinaharap."
-              ]
+              ],
+              "list": [],
+              "quotes": []
             },
             {
               "headline": "PAARALAN",
               "paragraph": [
                 "Dapat malaman ang paggalang at respeto sa sino mang tao. Ituro ang tamang pagsunod sa mga kautusang pambayan."
-              ]
+              ],
+              "list": [],
+              "quotes": []
             },
             {
               "headline": "RELIHIYON AT SIMBAHAN",
               "paragraph": [
                 "Ang makatotohanang aral at turo ng simbahan, gayundin ang paaralan at mga magulang, ang siyang tanging kasangkapan sa pagtuklas ng banal na daan ng Makapangyarihang Diyos, sapagkat nasa mga tao ang kaganapan o katuparan ng mga aral ng ating Panginoon."
-              ]
+              ],
+              "list": [],
+              "quotes": []
             }
           ]
         },
         {
-          "title": "SA MGA MAGULANG",
+          "title": "Sa mga Magulang",
           "content": [
             {
               "paragraph": [
@@ -471,15 +521,16 @@
                 "Hindi dapat iparamdam na may kinagagaanan ng loob, bagkus maging daan ng masarap na tinginan ng magkakapatid. Isipin ang pantay na pagtingin sa mga anak, lalaki o babae man.",
                 "Isang kamalian ang labis na pagpapaunlak sa pag-alis alis ng bahay at wala namang oras ng pag-uwi. Dapat alamin at magpaalam naman kung saan ang patutunguhan.",
                 "Supilin sila  na matulog sa sariling bahay sa buong magdamag maliban sa may mahalagang dahilan. Dito nagsisimula ang pagkakaroon ng mga batang lumiliko sa magandang takbo ng buhay. Dito rin nagmumula ang pagkakaroon ng kabataang nag iiba-iba ng isip hanggang sa humahantong sa mas mabibigat na suliranin."
-              ]
+              ],
+              "quotes": []
             }
           ]
         },
         {
-          "title": "MGA KARAGDAGANG PATNUBAY SA MGA MAGULANG",
+          "title": "Mga Karagdagang Patnubay sa mga Magulang",
           "content": [
             {
-              "paragpraph": [
+              "paragraph": [
                 "Isagawa itong mga kautusang pambahay at tagubilin sa bawat pamilya na dapat pairalin sa loob ng tahanan upang masubukan."
               ],
               "list": [
@@ -490,22 +541,26 @@
                 "Hindi nawawala ang gulo, away o kagalitan ng pamilya sa loob at labas ng tahanan. Makabubuti sa  nagkasala na aminin agad at kusang tanggapin ng buong kababaan ang kamalian at patawarin naman ng pinagkasalahan upang maiwasan ang matagal na pagtatalo na isa sa dahilan ng paglayo ng biyaya sa tahanan.",
                 "Pag-aralang lumipas ang sariling galit o poot sa kapwa bago magsalita upang maiwasan ang masama at labis na pagwiwika sa kapwa.",
                 "Ibahagi sa pinagkakagastusan ang alkansiya o pag-iipon para sa kinabukasan ng bawat isa sa pamilya. Maghulog araw-araw sa magaan at kayang halaga. Ang walang tigil na pag-iipon sa maliit na halaga ay malaki ang kahulugan sa darating na araw."
-              ]
+              ],
+              "quotes": []
             }
           ]
         },
         {
-          "title": "IBA PANG MGA ARAL NI A.C.D.U.D.U.M NIÑO DE PASTOR",
+          "title": "Iba pang mga Aral ni A.C.D.U.D.U.M Niño De Pastor",
           "content": [
             {
+              "paragraph": [],
               "list": [
                 "Dalawa ito sa makatutulong upang maiwasan ang paggawa  at pagsasalita ng masama lalo at wala kang maitutulong: <br> a. Huwag mong bigyan ng bigat o halaga ang naitulong mo sa kapwa mo, kundi ang bigyan mo ng halaga ay ang naitulong sa iyo ng kapwa mo. <br> b. Kung wala ka pa mang pakinabang sa taong lalapit at hihingi ng tulong mo, ay alalahanin mo agad ang kinabukasan mo at ng pamilya  mo , na baka nasa kanya ang inyong kailangan.",
-                "Ang panalangin ay sagrado pagkat isa itong pakikipag-usap sa Diyos. Sa pamamagitan ng panalangin ay makakaya nating labanan ang masasamang elemento na taglay ng makabagog panahon. Ito ang ating sanggalang sa lahat ng tukso at kasamaan.",
-                "Ang mga biyaya ng Diyos ay nasa paligid lamang. Ang mabisang pantawag ng mga biyaya ng Diyos ay maayos na pasunuran ng pamilyan, gayundin ang mabuting gawa at panalangin. Ang mga kaguluhan sa pamilya ang nagtataboy sa mga biyayang nasa baitang na ng hagdanan ng tahanan.",
+                "Ang relihiyon ay isang samahan na may layuning maka-Dios at rehistrado. Ito ay binubuo ng mga taong nagkakaisa ng layunin, mga taong nagkakaisa sa iisang paniniwala. Sa maka-Diyos na layunin ay hindi dapat na mangyari na ang mismong mga tagasunod ang mag-upasala sa ibang relihiyon sapagkat ang lahat ng tao ay magkakapatid, at higit sa lahat, hindi mapipili ng tao kung sino at anong relihiyon nito ang dapat niyang ang lapitan sa oras ng pangangailangan.",
+                "Ang tunay na pananampalataya ay ang tamang pagsasakatuparan ng makatotohanang mga aral ng Diyos na ipinatutupad ng simbahan. Ang isang taong maka-Diyos ay may malakas na kalooban na supilin ang mahinang kalooban upang malabanan ang tawag ng tukso sa gawang kasamaan at sa halip ay gumawa ng kabutihan, bukod sa ito ay marunong makilaro sa iba’t ibang ugali ng kanyang kapwa tao. HIndi ninanais ng ating Panginoon ang maluhong pananampalataya.",
                 "Ang yaman at dunong ay hindi magagamit kung walang kapwa tao sa paligid mo. Kailangan mo ang kapwa tao para magawa mo ng maayos ang mga gawain mo. Kailangan mo sila para may tumulong sa iyo kung may karamdaman ka at hindi ka makagalaw. Kailangan mo sila dahil nasa kanila ang iba mong kaillangan."
               ],
-              "carousel": [
+              "quotes": [
                 {
+                  "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
+                  "date": "2016",
                   "quote": "\"Kung totoong hinahanap mo ang Diyos, umiwas ka sa masama at ika’y magpakababa.\""
                 },
                 {
@@ -520,18 +575,20 @@
                 },
                 {
                   "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
-                  "date": "Abril 2, 2010",
-                  "quote": "\"Kung ang lahat ng relihiyon ay magkakaisa sa paniniwala na ang Diyos ay katotohanan, sa mabuting gawa, ay magiging malakas ang kapangyarihan na labanan ang kasamaan.\""
+                  "date": "Marso 1, 2014",
+                  "quote": "\"Saan mang relihiyon  magtungo ang isang tao at sa masama ay hindi magbabago, ay wala siyang kaligtasan at mapayapang buhay.\""
                 }
               ]
             }
           ]
         },
         {
-          "title": "ILAN SA MGA BUTIL NG KATOTOHANAN",
+          "title": "Ilan sa mga Butil ng Katotohanan",
           "content": [
             {
-              "carousel": [
+              "paragraph": [],
+              "list": [],
+              "quotes": [
                 {
                   "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
                   "location": "Sa harap ng maraming tao<br>Kaingin, Maybancal, Morong, Rizal",
@@ -552,7 +609,23 @@
                 {
                   "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
                   "date": "2016",
-                  "quote": "\"Ang panahon ngayon ay namamayani ang mga elemento ng hangin, tubig at apoy… labing walong taon na ng ibabala ng ating simbahan na paghandaan ang pagdating ng totoong kapistahan ng mga elemento ng kalikasan. Ang tanging magagawa ng tao ay tapatan ng pag-iingat at panalangin.\""
+                  "quote": "\"Malapit sa tao ang sakit, aksidente, kalamidad- isang paraan ni AMA ng pagbabawas ng tao. Mabuting gawa, ingat at panalangin lamang ang tanging magagawa ng mga tao para sa kanilang kaligtasan.\""
+                },
+                {
+                  "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
+                  "date": "Abril 02, 2010",
+                  "quote": "\"Ang pang-aapi sa kapwa ay may katapat na kabayaran, gayundin, ang nagpaparaya ay tunay na pagpapalain.\""
+                },
+                {
+                  "quote": "Ang panalangin ay sagrado pagkat isa itong pakikipag-usap sa Diyos. Sa pamamagitan ng panalangin ay makakaya nating labanan ang masasamang elemento na taglay ng makabagog panahon. Ito ang ating sanggalang sa lahat ng tukso at kasamaan."
+                },
+                {
+                  "quote": "Ang mga biyaya ng Diyos ay nasa paligid lamang. Ang mabisang pantawag ng mga biyaya ng Diyos ay maayos na pasunuran ng pamilyan, gayundin ang mabuting gawa at panalangin. Ang mga kaguluhan sa pamilya ang nagtataboy sa mga biyayang nasa baitang na ng hagdanan ng tahanan."
+                },
+                {
+                  "author": "A.C.D.U.D.U.M NIÑO DE PASTOR",
+                  "date": "Abril 02, 2010",
+                  "quote": "\"Kung ang lahat ng relihiyon ay magkakaisa sa paniniwala na ang Diyos ay katotohanan, sa mabuting gawa, ay magiging malakas ang kapangyarihan na labanan ang kasamaan.\""
                 }
               ]
             }

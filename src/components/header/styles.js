@@ -11,7 +11,6 @@ export const styleSheet = () =>
     },
     list: {
       margin: '0',
-      padding: '0 6rem',
       listStyleType: 'none',
       backgroundColor: COLORS.red,
 
@@ -38,6 +37,7 @@ export const styleSheet = () =>
         justifyContent: 'center',
         alignItems: 'center',
         height: '70px',
+        padding: '0 6rem'
       },
     },
     item: {
@@ -65,7 +65,8 @@ export const styleSheet = () =>
       textDecoration: 'none',
       textTransform: 'uppercase',
       textAlign: 'center',
-
+      fontFamily: `Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif`,
+      
       [STYLE_MEDIA.MOBILE]: {
         display: 'block',
       },
@@ -126,7 +127,7 @@ export const styleSheet = () =>
       fontSize: '24px',
       margin: '10px',
       padding: '0px 6px',
-      borderRadius: '3px',
+      borderRadius: '4px',
 
       [STYLE_MEDIA.MOBILE]: {
         display: 'inline-block',

@@ -32,6 +32,9 @@ section {
 section:nth-child(odd):not(:last-of-type) {
   background-color: #f7f7f7;
 }
+blockquote {
+  margin: 0;
+}
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 24px;
