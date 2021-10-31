@@ -23,6 +23,9 @@ export const styleSheet = () =>
         flexWrap: 'wrap'
       }
     },
+    mainQuote: {
+      listStyleType: 'none'
+    },
     item: {
       padding: '15px',
 
