@@ -58,12 +58,14 @@ const Teachings = (props) => {
                 </li>
               });
 
+              const isMainQuote = content.quotes.length === 1 && content.quotes.every(({quote}) => !quote);
+
               return <div key={i} className={css(styles.contentContainer)}>
                 <h3>{content.headline}</h3>
                 <div> 
                 {paragraphs}
                 </div>
-                <ol>
+                <ol className={css(isMainQuote && styles.mainQuote)}>
                   {list}
                   {quotes}
                 </ol>
