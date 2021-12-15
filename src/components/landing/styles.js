@@ -19,8 +19,8 @@ export const styleSheet = () =>
       maxWidth: '100%'
     },
     paragraph: {
-      color: COLORS.white,
-      textShadow: `2px 2px ${COLORS.darkGray}`,
+      color: COLORS.green,
+      textShadow: `2px 2px ${COLORS.white}`,
       marginTop: '12%',
       fontSize: '28px',
       fontFamily: `'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif`,
