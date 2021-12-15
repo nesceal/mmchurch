@@ -6,27 +6,29 @@ export const styleSheet = () =>
     landing: {
       textAlign: 'center',
       color: '#FFFFFF',
-      backgroundImage: 'url(images/header.jpg)',
-      backgroundPosition: 'center center',
-      backgroundSize: 'cover',
       display: 'flex',
       alignItems: 'center',
-      height: '75vh',
+      marginTop: '80px',
 
       [STYLE_MEDIA.MOBILE]: {
-        height: '50vh',
-      },
+        marginTop: '0px',
+      }
+    },
+    background: {
+      height: 'auto',
+      maxWidth: '100%'
     },
     paragraph: {
       color: COLORS.white,
       textShadow: `2px 2px ${COLORS.darkGray}`,
-      width: '50%',
-      fontSize: '20px',
+      marginTop: '12%',
+      fontSize: '28px',
       fontFamily: `'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif`,
       fontStyle: 'italic',
+      position: 'absolute',
 
       [STYLE_MEDIA.MOBILE]: {
         fontSize: '16px',
-      },
+      }
     },
   });
