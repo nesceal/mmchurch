@@ -341,7 +341,7 @@
     },
     "contact": {
       "header": "CONTACT US",
-      "contents": "Email: mmchurch1955@gmail.com<br>Phone: +63 956 870 6097<br>Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
+      "contents": "For inquiries and for donations, please email us at <u>mmchurch1955@gmail.com</u> or call us at <u>+63 956 870 6097</u>.<br>Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
     }
   },
   "tagalog": {
@@ -689,7 +689,7 @@
     },
     "contact": {
       "header": "KONTAKIN",
-      "contents": "Email: mmchurch1955@gmail.com<br>Phone: +63 956 870 6097<br>Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
+      "contents": "Para sa mga katanungan at sa mga donasyon, mag-email sa mmchurch1955@gmail.com o tumawag sa +63 956 870 6097<br>.Address: 47B Gov Tupas St. Barangay San Pedro, Morong, Rizal 1960 Philippines"
     }
   }
 }
